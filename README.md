@@ -56,10 +56,5 @@ To get a local copy of this project up and running, you'll need:
     ```
 
 
-### Detalhes:
-- Certifique-se de usar **três acentos graves (\`\`\`)** antes e depois do bloco de código e especificar a linguagem (neste caso, `bash`).
-- Recuar a explicação com **espaços** para que a numeração e os blocos de código fiquem alinhados corretamente.
-
-Copie e cole esse trecho no seu arquivo `README.md`, e isso deve corrigir a renderização no GitHub. Se precisar de mais ajustes, estarei à disposição!
 
 
