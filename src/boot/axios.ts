@@ -1,11 +1,5 @@
 import { boot } from 'quasar/wrappers';
-import axios, { AxiosInstance } from 'axios';
-
-declare module '@vue/runtime-core' {
-  interface ComponentCustomProperties {
-    $axios: AxiosInstance;
-  }
-}
+import axios from 'axios';
 
 const api = axios.create({ baseURL: 'http://localhost:5000/api' });
 

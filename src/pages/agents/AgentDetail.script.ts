@@ -22,6 +22,7 @@ const loadAgent = async () => {
   }
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const saveAgent = async () => {
   try {
     await api.put(`/agents/${agent.value.agentId}`, agent.value);

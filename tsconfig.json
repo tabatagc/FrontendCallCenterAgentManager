@@ -1,6 +1,7 @@
 {
   "extends": "@quasar/app-vite/tsconfig-preset",
   "compilerOptions": {
+    "types": ["quasar", "@quasar/app-vite"],
     "baseUrl": "."
   },
   "exclude": [
@@ -10,5 +11,6 @@
     "./src-capacitor",
     "./src-cordova",
     "./quasar.config.*.temporary.compiled*"
-  ]
+  ],
+  "include": ["src/**/*.ts", "src/**/*.vue", "src/quasar.d.ts"]
 }
